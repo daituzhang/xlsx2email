@@ -2,6 +2,10 @@
 bin/
 bin-debug/
 bin-release/
+.sass-cache/*
+*.scssc
+css/sass/.sass-cache
+.vagrant
 
 # Other files and folders
 .settings/

@@ -1,5 +1,4 @@
 # xlsx2email
-==========
 * Auto generate inline css html and text version for your template
 * Auto read through a xlsx file and generate html emails based on template you create
 
