@@ -1,0 +1,771 @@
+@import '600';
+
+* { 
+  -webkit-hyphens: none;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#outlook a { 
+  padding:0; 
+} 
+
+body{  
+  width:100% !important; 
+  -webkit-text-size-adjust:100%; 
+  -ms-text-size-adjust:100%; 
+  margin:0; 
+  padding:0;
+}
+
+.ExternalClass { 
+  width:100%;
+} 
+
+.ExternalClass, 
+.ExternalClass p, 
+.ExternalClass span, 
+.ExternalClass font, 
+.ExternalClass td, 
+.ExternalClass div { 
+  line-height: 100%; 
+} 
+
+
+/**
+* @tab Page
+* @section background color
+* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+* @theme page
+*/
+#backgroundTable,.header,.footer { 
+  /*@editable*/background: #f5f5f5;
+}
+
+
+img { 
+  font-size: 11px;
+  outline:none; 
+  text-decoration:none; 
+  -ms-interpolation-mode: bicubic;
+  width: 100% !important;
+  display: block;
+}
+
+center {
+  width: 100%;
+  min-width: 600px;
+}
+
+a img { 
+  border: 0;
+}
+
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td { 
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important; 
+}
+
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+hr {
+  color: #d9d9d9; 
+  background-color: #d9d9d9; 
+  height: 1px; 
+  border: none;
+}
+
+ul {
+  padding-left: 33px;
+}
+/* Responsive Grid */
+
+table.body {
+  height: 100%;
+  width: 100%;
+}
+
+table.container {
+  width: 520px;
+  margin: 0 auto;
+  text-align: inherit;
+}
+
+
+
+table.row { 
+  padding: 0px; 
+  width: 600px;
+  position: relative;
+}
+
+table.row.intro .center { 
+  vertical-align: middle;
+  padding: 7px;
+  padding-bottom: 15px;
+}
+
+.header .center a {
+  font-size: 12px;
+  height: 25px;
+}
+
+table.container table.row {
+  display: block;
+}
+
+.content .container {
+  width: 600px;
+}
+
+td.wrapper {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+td.wrapper.sand-top {
+  padding-bottom: 0px;
+}
+
+td.wrapper.sand-bot {
+  padding-top: 0px;
+}
+
+.header td.wrapper {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.content td.wrapper {
+
+}
+
+.subfooter td.wrapper {
+
+}
+
+.footer td.wrapper {
+
+}
+
+#headline {
+  font-size:22px;
+}
+
+.hide {
+  display: none !important;
+}
+
+table.columns,
+table.column {
+  margin: 0 auto;
+}
+
+
+
+
+td.sub-column, td.sub-columns {
+  min-width: 0px;
+}
+
+table.row td.last,
+table.container td.last {
+  padding-right: 0px;
+}
+
+table.one { width: 21px; }
+table.two { width: 135px; }
+table.three { width: 180px; }
+table.four { width: 140px; }
+table.five { width: 260px; }
+table.six { width: 290px; }
+table.seven { width: 340px; }
+table.eight { width: 425px; }
+table.nine { width: 410px; }
+table.ten { width: 520px; }
+table.eleven { width: 530px; }
+table.twelve { width: 600px; }
+
+table.one center { min-width: 21px; }
+table.two center { min-width: 125px; }
+table.three center { min-width: 180px; }
+table.four center { min-width: 140px; }
+table.five center { min-width: 280px; }
+table.six center { min-width: 350px; }
+table.seven center { min-width: 380px; }
+table.eight center { min-width: 420px; }
+table.nine center { min-width: 410px; }
+table.ten center { min-width: 520px; }
+table.eleven center { min-width: 530px; }
+table.twelve center { min-width: 600px; }
+
+.body .columns td.one,
+.body .column td.one, { width: 8.333333% !important; }
+.body .columns td.two,
+.body .column td.two { width: 16.666666% !important; }
+.body .columns td.three,
+.body .column td.three { width: 25% !important; }
+.body .columns td.four,
+.body .column td.four { width: 33.333333% !important; }
+.body .columns td.five,
+.body .column td.five { width: 41.666666% !important; }
+.body .columns td.six,
+.body .column td.six { width: 50% !important; }
+.body .columns td.seven,
+.body .column td.seven { width: 58.333333% !important; }
+.body .columns td.eight,
+.body .column td.eight { width: 66.666666% !important; }
+.body .columns td.nine,
+.body .column td.nine { width: 75% !important; }
+.body .columns td.ten,
+.body .column td.ten { width: 83.333333% !important; }
+.body .columns td.eleven,
+.body .column td.eleven { width: 91.666666% !important; }
+.body .columns td.twelve,
+.body .column td.twelve { width: 100% !important; }
+
+td.offset-by-one { padding-left: 50px; }
+td.offset-by-two { padding-left: 100px; }
+td.offset-by-three { padding-left: 150px; }
+td.offset-by-four { padding-left: 200px; }
+td.offset-by-five { padding-left: 250px; }
+td.offset-by-six { padding-left: 300px; }
+td.offset-by-seven { padding-left: 350px; }
+td.offset-by-eight { padding-left: 400px; }
+td.offset-by-nine { padding-left: 450px; }
+td.offset-by-ten { padding-left: 500px; }
+td.offset-by-eleven { padding-left: 550px; }
+
+td.sub-offset-by-one { padding-left: 5.172413% !important; }
+td.sub-offset-by-two { padding-left: 13.793102% !important; }
+td.sub-offset-by-three { padding-left: 22.413791% !important; }
+td.sub-offset-by-four { padding-left: 31.034480% !important; }
+td.sub-offset-by-five { padding-left: 39.655169% !important; }
+td.sub-offset-by-six { padding-left: 48.275858% !important; }
+td.sub-offset-by-seven { padding-left: 56.896547% !important; }
+td.sub-offset-by-eight { padding-left: 65.517236% !important; }
+td.sub-offset-by-nine { padding-left: 74.137925% !important; }
+td.sub-offset-by-ten { padding-left: 82.758614% !important; }
+td.sub-offset-by-eleven { padding-left: 91.379303% !important; }
+
+td.expander {
+  visibility: hidden;
+  width: 0px;
+  padding: 0 !important;
+}
+
+table.columns .text-pad,
+table.column .text-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table.columns .left-text-pad,
+table.columns .text-pad-left,
+table.column .left-text-pad,
+table.column .text-pad-left {
+  padding-left: 10px;
+}
+
+table.columns .right-text-pad,
+table.columns .text-pad-right,
+table.column .right-text-pad,
+table.column .text-pad-right {
+  padding-right: 10px;
+}
+
+/* Block Grid */
+
+.block-grid {
+  width: 100%;
+  max-width: 600px;
+}
+
+.block-grid td {
+  display: inline-block;
+  padding:10px;
+}
+
+.two-up td {
+  width:270px;
+}
+
+.three-up td {
+  width:173px;
+}
+
+.four-up td {
+  width:125px;
+}
+
+.five-up td {
+  width:96px;
+}
+
+.six-up td {
+  width:76px;
+}
+
+.seven-up td {
+  width:62px;
+}
+
+.eight-up td {
+  width:52px;
+}
+
+/* Alignment & Visibility Classes */
+
+table.center, td.center {
+  text-align: center;
+}
+
+h1.center,
+h2.center,
+h3.center,
+h3.center,
+h5.center,
+h6.center {
+  text-align: center;
+}
+
+span.center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+img.center {
+  margin: 0 auto;
+  float: none;
+}
+
+.show-for-small,
+.hide-for-desk {
+  display: none;
+}
+h1,h2,h3,h4,h5,p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+/* Typography */
+a {
+  text-decoration: underline;
+}
+/**
+* @tab Page
+* @section heading 1
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading1
+*/
+h1, .h1 {
+  /*@editable*/color: #888888;
+  /*@editable*/font-family: "Helvetica";
+  /*@editable*/font-size: 36px;
+  /*@editable*/font-weight: 200;
+  letter-spacing:-1.5px; 
+  /*@editable*/text-align: center; 
+}
+
+/**
+* @tab Page
+* @section heading 2
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading2
+*/
+h2, .h2 {
+  font-weight: 200;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+/**
+* @tab Page
+* @section heading 3
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading3
+*/
+h3, .h3 {
+  font-size:18px;
+  font-weight: 500;
+  line-height: 26px; 
+  text-align: center; 
+  color: #888888; 
+}
+
+/**
+* @tab Page
+* @section heading 4
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading4
+*/
+h4, .h4 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/**
+* @tab Page
+* @section heading 5
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading5
+*/
+h5, .h5 {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+  text-transform:uppercase;
+}
+
+/**
+* @tab Page
+* @section normal
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme normal
+*/
+p, .normal {
+  font-size:14px;
+  line-height: 22px;
+  font-weight: 300;
+}
+p i {
+  font-size: 10px;
+  margin-top: 5px;
+  line-height: 15px;
+}
+.content li {
+  padding: 5px 0px;
+  list-style-type: none;
+}
+p.small {
+  font-size: 12px;
+}
+
+p.smaller {
+  font-size: 11px;
+  line-height: 16px;
+}
+.footer a {
+  text-decoration: none;
+}
+/* Panels */
+h3 .small,
+li .small {
+  vertical-align: top;
+}
+
+
+
+p .small {
+  font-size: 12px;
+}
+
+.mobile-pho {
+  font-size: 20px;
+}
+td.panel {
+  background: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  padding: 10px !important;
+}
+
+br {
+  margin-top: 10px;
+}
+/**
+* @tab Page
+* @section main block
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style blockwhite
+*/
+.white {
+  /*@editable*/ background: #ffffff;
+  /*@editable*/ color: #888888;
+}
+.white h1, .white h2, .white h3, .white h4, .white p, .white a,
+.header h1, .header h2, .header h3, .header h4, .header p, .header a
+.footer h1, .footer h2, .footer h3, .footer h4, .footer p, .footer a {
+  color: #888888;
+}
+.white h5,
+.header h5,
+.footer h5 {
+  color: #333333;
+}
+.white a,
+.header a,
+.footer a {
+  color: #2e80b9;
+}
+
+/**
+* @tab Page
+* @section main block
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style block
+*/
+.green {
+  /*@editable*/ background: #99cc00;
+  /*@editable*/ color: #ffffff;
+}
+
+/**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+.red {
+  background: #ff3333;
+  color: #ffffff;
+}
+
+/**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+.blue {
+  background: #0099ff;
+  color: #ffffff;
+}
+
+.green h1, .green h2, .green h3, .green h4, .green h5, .green p, .green a,
+.red h1, .red h2, .red h3, .red h4, .red h5, .red p, .red a,
+.blue h1, .blue h2, .blue h3, .blue h4, .blue h5, .blue p, .blue a {
+  color: #ffffff;
+}
+ 
+ /**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+.yellow {
+  background: #ffde00;
+}
+
+.yellow h1, .yellow h2, .yellow h3, .yellow h4, .yellow h5, .yellow p, .yellow a {
+  color: #4a4736;
+}
+
+/**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+.orange {
+  background: #df7a00;
+}
+.font-white {
+  color: #ffffff;
+}
+.font-blue {
+  color: #002395;
+}
+.font-green {
+  color: #a4da60;
+}
+.font-grey {
+  color: #766a65;
+}
+.border-bottom-light-blue {
+  border-bottom: 1px solid #30929c;
+}
+/* Buttons */
+
+table.button,
+table.tiny-button,
+table.small-button,
+table.medium-button,
+table.large-button {
+  width: 100%;
+  overflow: hidden;
+}
+
+table.button td,
+table.tiny-button td,
+table.small-button td,
+table.medium-button td,
+table.large-button td {
+  display: block;
+  width: auto !important;
+  text-align: center;
+  border: 1px solid #ffffff;
+  padding: 8px 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+table.button td{
+  width: 178px !important;
+}
+table.button td a {
+  text-decoration: none;
+  display: block;
+  text-align: center !important;
+}
+
+.white table.button td,
+.white table.tiny-button td,
+.white table.small-button td,
+.white table.medium-button td,
+.white table.large-button td {
+  border: 1px solid #888888;
+}
+
+.white table.button td a,
+.white table.tiny-button td a,
+.white table.small-button td a,
+.white table.medium-button td a,
+.white table.large-button td a {
+  color: #888888;
+}
+
+table.row:not(.white) table.button:hover td,
+table.row:not(.white) table.tiny-button:hover td,
+table.row:not(.white) table.small-button:hover td,
+table.row:not(.white) table.medium-button:hover td,
+table.row:not(.white) table.large-button:hover td {
+  background: #ffffff !important;
+}
+
+table.row:not(.white) table.button:hover td a,
+table.row:not(.white) table.tiny-button:hover td a,
+table.row:not(.white) table.small-button:hover td a,
+table.row:not(.white) table.medium-button:hover td a,
+table.row:not(.white) table.large-button:hover td a {
+    color: #888888 !important;
+}
+
+table.row.white table.button:hover td,
+table.row.white table.tiny-button:hover td,
+table.row.white table.small-button:hover td,
+table.row.white table.medium-button:hover td,
+table.row.white table.large-button:hover td {
+  background: #888888 !important; 
+}
+
+table.row.white table.button:hover td a,
+table.row.white table.tiny-button:hover td a,
+table.row.white table.small-button:hover td a,
+table.row.white table.medium-button:hover td a,
+table.row.white table.large-button:hover td a {
+  color: #ffffff !important;
+}
+/* Outlook First */
+
+body.outlook p {
+  display: inline !important;
+}
+
+.padding {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+.padding-left {
+  padding-left: 20px !important;
+}
+.padding-right {
+  padding-right: 10px !important;
+}
+.padding-top {
+  padding-top: 56px !important;
+}
+.footer .padding-left {
+  padding-left: 60px !important;
+}
+.footer .padding-right {
+  padding-right: 90px !important;
+}
+
+h2 a{
+  text-decoration: none !important;
+  color: #888888 !important;
+}
+table.facebook td {
+  background: #3b5998;
+  border-color: #2d4473;
+}
+
+table.facebook:hover td {
+  background: #2d4473 !important;
+}
+
+table.twitter td {
+  background: #00acee;
+  border-color: #0087bb;
+}
+
+table.twitter:hover td {
+  background: #0087bb !important;
+}
+
+table.google-plus td {
+  background-color: #DB4A39;
+  border-color: #CC0000;
+}
+
+table.google-plus:hover td {
+  background: #CC0000 !important;
+}
+
+.template-label {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.callout .panel {
+  background: #ECF8FF;
+  border-color: #b9e5ff;
+}
+
+.center {
+  text-align: center;
+}
+
+table.columns .text-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table.columns .left-text-pad {
+  padding-left: 10px;
+}
+
+table.columns .right-text-pad {
+  padding-right: 10px;
+}
+
+table[class="body"] .icon .wrapper {
+  display: inline-block !important;
+  margin-right: 5px;
+}
+
+.top {
+  vertical-align: top;
+}
+.middle {
+  vertical-align: middle;
+}
+.bottom {
+  vertical-align: bottom;
+}
+    

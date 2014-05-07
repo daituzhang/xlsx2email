@@ -1,0 +1,1666 @@
+@media only screen and (max-width: 600px) {
+  /* line 3, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+
+  /* line 7, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 15, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  img#content-img,
+  img#bottom-arrow {
+    display: none !important;
+  }
+
+  /* line 18, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  #content-right {
+    padding-bottom: 15px !important;
+  }
+
+  /* line 22, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table, tr, td {
+    text-align: center !important;
+  }
+
+  /* line 25, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] img {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  /* line 30, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+
+  /* line 33, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .container {
+    width: 95% !important;
+  }
+
+  /* line 36, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .content .container {
+    width: 100% !important;
+  }
+
+  /* line 39, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .row {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* line 42, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .wrapper {
+    display: block !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* line 46, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .icon .wrapper {
+    display: inline-block !important;
+    margin-right: 5px;
+  }
+
+  /* line 51, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .columns {
+    table-layout: fixed !important;
+    float: none !important;
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    display: block !important;
+  }
+
+  /* line 54, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .column.one {
+    width: 21px !important;
+  }
+
+  /* line 57, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .column.one td {
+    display: inline-block !important;
+  }
+
+  /* line 60, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .wrapper.first .columns {
+    display: table !important;
+  }
+
+  /* line 63, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] table.columns td {
+    width: 100% !important;
+  }
+
+  /* line 66, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-one {
+    padding-left: 0 !important;
+  }
+
+  /* line 69, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-two {
+    padding-left: 0 !important;
+  }
+
+  /* line 72, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-three {
+    padding-left: 0 !important;
+  }
+
+  /* line 75, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-four {
+    padding-left: 0 !important;
+  }
+
+  /* line 78, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-five {
+    padding-left: 0 !important;
+  }
+
+  /* line 81, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-six {
+    padding-left: 0 !important;
+  }
+
+  /* line 84, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-seven {
+    padding-left: 0 !important;
+  }
+
+  /* line 87, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-eight {
+    padding-left: 0 !important;
+  }
+
+  /* line 90, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-nine {
+    padding-left: 0 !important;
+  }
+
+  /* line 93, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-ten {
+    padding-left: 0 !important;
+  }
+
+  /* line 96, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] td.offset-by-eleven {
+    padding-left: 0 !important;
+  }
+
+  /* line 99, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .expander {
+    width: 9999px !important;
+  }
+
+  /* line 102, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+
+  /* line 105, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .text-pad-right {
+    padding-left: 10px !important;
+  }
+
+  /* line 108, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+
+  /* line 111, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .text-pad-left {
+    padding-right: 10px !important;
+  }
+
+  /* line 114, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .hide-for-small {
+    display: none !important;
+  }
+
+  /* line 117, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .show-for-desktop {
+    display: none !important;
+  }
+
+  /* line 120, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .show-for-small {
+    display: inherit !important;
+  }
+
+  /* line 123, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .hide-for-desktop {
+    display: inherit !important;
+  }
+
+  /* line 126, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+
+  /* line 129, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+
+  /* line 137, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] table.columns td table.button td,
+  table[class="body"] table.columns td table.tiny-button td,
+  table[class="body"] table.columns td table.small-button td,
+  table[class="body"] table.columns td table.medium-button td,
+  table[class="body"] table.columns td table.large-button {
+    width: 95% !important;
+    text-align: center;
+  }
+
+  /* line 143, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  .white.center,
+  .green.center {
+    width: 600px !important;
+  }
+
+  /* line 150, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  .padding,
+  .padding-left,
+  .padding-right,
+  .footer .padding-left,
+  .footer .padding-right {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* line 154, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  .padding-top, td.wrapper.top.padding-top {
+    padding-top: 0 !important;
+  }
+
+  /* line 157, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  .sub-wrapper {
+    padding-left: 2.5% !important;
+    padding-right: 2.5% !important;
+  }
+
+  /* line 162, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] table.columns td table.button td, table[class="body"] table.columns td table.tiny-button td, table[class="body"] table.columns td table.small-button td, table[class="body"] table.columns td table.medium-button td, table[class="body"] table.columns td table.large-button {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  /* line 169, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  .footer td.wrapper h3,
+  .footer td.wrapper h5,
+  .footer td.wrapper img {
+    margin-bottom: 0px;
+  }
+
+  /* line 172, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  table[class="body"] .wrapper.hide-for-mobile {
+    display: none !important;
+  }
+
+  /* line 175, /Users/yuluzhang/xlsx2email/template/css/sass/_600.scss */
+  .hide-for-desk {
+    display: block !important;
+  }
+}
+/* line 3, sass/_ink.scss */
+* {
+  -webkit-hyphens: none;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 8, sass/_ink.scss */
+#outlook a {
+  padding: 0;
+}
+
+/* line 12, sass/_ink.scss */
+body {
+  width: 100% !important;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 20, sass/_ink.scss */
+.ExternalClass {
+  width: 100%;
+}
+
+/* line 29, sass/_ink.scss */
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/**
+* @tab Page
+* @section background color
+* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+* @theme page
+*/
+/* line 40, sass/_ink.scss */
+#backgroundTable, .header, .footer {
+  /*@editable*/
+  background: #f5f5f5;
+}
+
+/* line 45, sass/_ink.scss */
+img {
+  font-size: 11px;
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  width: 100% !important;
+  display: block;
+}
+
+/* line 54, sass/_ink.scss */
+center {
+  width: 100%;
+  min-width: 600px;
+}
+
+/* line 59, sass/_ink.scss */
+a img {
+  border: 0;
+}
+
+/* line 64, sass/_ink.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* line 69, sass/_ink.scss */
+td {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  border-collapse: collapse !important;
+}
+
+/* line 77, sass/_ink.scss */
+table, tr, td {
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* line 83, sass/_ink.scss */
+hr {
+  color: #d9d9d9;
+  background-color: #d9d9d9;
+  height: 1px;
+  border: none;
+}
+
+/* line 90, sass/_ink.scss */
+ul {
+  padding-left: 33px;
+}
+
+/* Responsive Grid */
+/* line 95, sass/_ink.scss */
+table.body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 100, sass/_ink.scss */
+table.container {
+  width: 520px;
+  margin: 0 auto;
+  text-align: inherit;
+}
+
+/* line 108, sass/_ink.scss */
+table.row {
+  padding: 0px;
+  width: 600px;
+  position: relative;
+}
+
+/* line 114, sass/_ink.scss */
+table.row.intro .center {
+  vertical-align: middle;
+  padding: 7px;
+  padding-bottom: 15px;
+}
+
+/* line 120, sass/_ink.scss */
+.header .center a {
+  font-size: 12px;
+  height: 25px;
+}
+
+/* line 125, sass/_ink.scss */
+table.container table.row {
+  display: block;
+}
+
+/* line 129, sass/_ink.scss */
+.content .container {
+  width: 600px;
+}
+
+/* line 133, sass/_ink.scss */
+td.wrapper {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 139, sass/_ink.scss */
+td.wrapper.sand-top {
+  padding-bottom: 0px;
+}
+
+/* line 143, sass/_ink.scss */
+td.wrapper.sand-bot {
+  padding-top: 0px;
+}
+
+/* line 147, sass/_ink.scss */
+.header td.wrapper {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+/* line 164, sass/_ink.scss */
+#headline {
+  font-size: 22px;
+}
+
+/* line 168, sass/_ink.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 173, sass/_ink.scss */
+table.columns,
+table.column {
+  margin: 0 auto;
+}
+
+/* line 180, sass/_ink.scss */
+td.sub-column, td.sub-columns {
+  min-width: 0px;
+}
+
+/* line 185, sass/_ink.scss */
+table.row td.last,
+table.container td.last {
+  padding-right: 0px;
+}
+
+/* line 189, sass/_ink.scss */
+table.one {
+  width: 21px;
+}
+
+/* line 190, sass/_ink.scss */
+table.two {
+  width: 135px;
+}
+
+/* line 191, sass/_ink.scss */
+table.three {
+  width: 180px;
+}
+
+/* line 192, sass/_ink.scss */
+table.four {
+  width: 140px;
+}
+
+/* line 193, sass/_ink.scss */
+table.five {
+  width: 260px;
+}
+
+/* line 194, sass/_ink.scss */
+table.six {
+  width: 290px;
+}
+
+/* line 195, sass/_ink.scss */
+table.seven {
+  width: 340px;
+}
+
+/* line 196, sass/_ink.scss */
+table.eight {
+  width: 425px;
+}
+
+/* line 197, sass/_ink.scss */
+table.nine {
+  width: 410px;
+}
+
+/* line 198, sass/_ink.scss */
+table.ten {
+  width: 520px;
+}
+
+/* line 199, sass/_ink.scss */
+table.eleven {
+  width: 530px;
+}
+
+/* line 200, sass/_ink.scss */
+table.twelve {
+  width: 600px;
+}
+
+/* line 202, sass/_ink.scss */
+table.one center {
+  min-width: 21px;
+}
+
+/* line 203, sass/_ink.scss */
+table.two center {
+  min-width: 125px;
+}
+
+/* line 204, sass/_ink.scss */
+table.three center {
+  min-width: 180px;
+}
+
+/* line 205, sass/_ink.scss */
+table.four center {
+  min-width: 140px;
+}
+
+/* line 206, sass/_ink.scss */
+table.five center {
+  min-width: 280px;
+}
+
+/* line 207, sass/_ink.scss */
+table.six center {
+  min-width: 350px;
+}
+
+/* line 208, sass/_ink.scss */
+table.seven center {
+  min-width: 380px;
+}
+
+/* line 209, sass/_ink.scss */
+table.eight center {
+  min-width: 420px;
+}
+
+/* line 210, sass/_ink.scss */
+table.nine center {
+  min-width: 410px;
+}
+
+/* line 211, sass/_ink.scss */
+table.ten center {
+  min-width: 520px;
+}
+
+/* line 212, sass/_ink.scss */
+table.eleven center {
+  min-width: 530px;
+}
+
+/* line 213, sass/_ink.scss */
+table.twelve center {
+  min-width: 600px;
+}
+
+/* line 216, sass/_ink.scss */
+.body .columns td.one,
+.body .column td.one {
+  width: 8.333333% !important;
+}
+
+/* line 218, sass/_ink.scss */
+.body .columns td.two,
+.body .column td.two {
+  width: 16.666666% !important;
+}
+
+/* line 220, sass/_ink.scss */
+.body .columns td.three,
+.body .column td.three {
+  width: 25% !important;
+}
+
+/* line 222, sass/_ink.scss */
+.body .columns td.four,
+.body .column td.four {
+  width: 33.333333% !important;
+}
+
+/* line 224, sass/_ink.scss */
+.body .columns td.five,
+.body .column td.five {
+  width: 41.666666% !important;
+}
+
+/* line 226, sass/_ink.scss */
+.body .columns td.six,
+.body .column td.six {
+  width: 50% !important;
+}
+
+/* line 228, sass/_ink.scss */
+.body .columns td.seven,
+.body .column td.seven {
+  width: 58.333333% !important;
+}
+
+/* line 230, sass/_ink.scss */
+.body .columns td.eight,
+.body .column td.eight {
+  width: 66.666666% !important;
+}
+
+/* line 232, sass/_ink.scss */
+.body .columns td.nine,
+.body .column td.nine {
+  width: 75% !important;
+}
+
+/* line 234, sass/_ink.scss */
+.body .columns td.ten,
+.body .column td.ten {
+  width: 83.333333% !important;
+}
+
+/* line 236, sass/_ink.scss */
+.body .columns td.eleven,
+.body .column td.eleven {
+  width: 91.666666% !important;
+}
+
+/* line 238, sass/_ink.scss */
+.body .columns td.twelve,
+.body .column td.twelve {
+  width: 100% !important;
+}
+
+/* line 240, sass/_ink.scss */
+td.offset-by-one {
+  padding-left: 50px;
+}
+
+/* line 241, sass/_ink.scss */
+td.offset-by-two {
+  padding-left: 100px;
+}
+
+/* line 242, sass/_ink.scss */
+td.offset-by-three {
+  padding-left: 150px;
+}
+
+/* line 243, sass/_ink.scss */
+td.offset-by-four {
+  padding-left: 200px;
+}
+
+/* line 244, sass/_ink.scss */
+td.offset-by-five {
+  padding-left: 250px;
+}
+
+/* line 245, sass/_ink.scss */
+td.offset-by-six {
+  padding-left: 300px;
+}
+
+/* line 246, sass/_ink.scss */
+td.offset-by-seven {
+  padding-left: 350px;
+}
+
+/* line 247, sass/_ink.scss */
+td.offset-by-eight {
+  padding-left: 400px;
+}
+
+/* line 248, sass/_ink.scss */
+td.offset-by-nine {
+  padding-left: 450px;
+}
+
+/* line 249, sass/_ink.scss */
+td.offset-by-ten {
+  padding-left: 500px;
+}
+
+/* line 250, sass/_ink.scss */
+td.offset-by-eleven {
+  padding-left: 550px;
+}
+
+/* line 252, sass/_ink.scss */
+td.sub-offset-by-one {
+  padding-left: 5.172413% !important;
+}
+
+/* line 253, sass/_ink.scss */
+td.sub-offset-by-two {
+  padding-left: 13.793102% !important;
+}
+
+/* line 254, sass/_ink.scss */
+td.sub-offset-by-three {
+  padding-left: 22.413791% !important;
+}
+
+/* line 255, sass/_ink.scss */
+td.sub-offset-by-four {
+  padding-left: 31.034480% !important;
+}
+
+/* line 256, sass/_ink.scss */
+td.sub-offset-by-five {
+  padding-left: 39.655169% !important;
+}
+
+/* line 257, sass/_ink.scss */
+td.sub-offset-by-six {
+  padding-left: 48.275858% !important;
+}
+
+/* line 258, sass/_ink.scss */
+td.sub-offset-by-seven {
+  padding-left: 56.896547% !important;
+}
+
+/* line 259, sass/_ink.scss */
+td.sub-offset-by-eight {
+  padding-left: 65.517236% !important;
+}
+
+/* line 260, sass/_ink.scss */
+td.sub-offset-by-nine {
+  padding-left: 74.137925% !important;
+}
+
+/* line 261, sass/_ink.scss */
+td.sub-offset-by-ten {
+  padding-left: 82.758614% !important;
+}
+
+/* line 262, sass/_ink.scss */
+td.sub-offset-by-eleven {
+  padding-left: 91.379303% !important;
+}
+
+/* line 264, sass/_ink.scss */
+td.expander {
+  visibility: hidden;
+  width: 0px;
+  padding: 0 !important;
+}
+
+/* line 271, sass/_ink.scss */
+table.columns .text-pad,
+table.column .text-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 279, sass/_ink.scss */
+table.columns .left-text-pad,
+table.columns .text-pad-left,
+table.column .left-text-pad,
+table.column .text-pad-left {
+  padding-left: 10px;
+}
+
+/* line 286, sass/_ink.scss */
+table.columns .right-text-pad,
+table.columns .text-pad-right,
+table.column .right-text-pad,
+table.column .text-pad-right {
+  padding-right: 10px;
+}
+
+/* Block Grid */
+/* line 292, sass/_ink.scss */
+.block-grid {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* line 297, sass/_ink.scss */
+.block-grid td {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* line 302, sass/_ink.scss */
+.two-up td {
+  width: 270px;
+}
+
+/* line 306, sass/_ink.scss */
+.three-up td {
+  width: 173px;
+}
+
+/* line 310, sass/_ink.scss */
+.four-up td {
+  width: 125px;
+}
+
+/* line 314, sass/_ink.scss */
+.five-up td {
+  width: 96px;
+}
+
+/* line 318, sass/_ink.scss */
+.six-up td {
+  width: 76px;
+}
+
+/* line 322, sass/_ink.scss */
+.seven-up td {
+  width: 62px;
+}
+
+/* line 326, sass/_ink.scss */
+.eight-up td {
+  width: 52px;
+}
+
+/* Alignment & Visibility Classes */
+/* line 332, sass/_ink.scss */
+table.center, td.center {
+  text-align: center;
+}
+
+/* line 341, sass/_ink.scss */
+h1.center,
+h2.center,
+h3.center,
+h3.center,
+h5.center,
+h6.center {
+  text-align: center;
+}
+
+/* line 345, sass/_ink.scss */
+span.center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 351, sass/_ink.scss */
+img.center {
+  margin: 0 auto;
+  float: none;
+}
+
+/* line 357, sass/_ink.scss */
+.show-for-small,
+.hide-for-desk {
+  display: none;
+}
+
+/* line 360, sass/_ink.scss */
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+/* Typography */
+/* line 365, sass/_ink.scss */
+a {
+  text-decoration: underline;
+}
+
+/**
+* @tab Page
+* @section heading 1
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading1
+*/
+/* line 374, sass/_ink.scss */
+h1, .h1 {
+  /*@editable*/
+  color: #888888;
+  /*@editable*/
+  font-family: "Helvetica";
+  /*@editable*/
+  font-size: 36px;
+  /*@editable*/
+  font-weight: 200;
+  letter-spacing: -1.5px;
+  /*@editable*/
+  text-align: center;
+}
+
+/**
+* @tab Page
+* @section heading 2
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading2
+*/
+/* line 389, sass/_ink.scss */
+h2, .h2 {
+  font-weight: 200;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+/**
+* @tab Page
+* @section heading 3
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading3
+*/
+/* line 401, sass/_ink.scss */
+h3, .h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: #888888;
+}
+
+/**
+* @tab Page
+* @section heading 4
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading4
+*/
+/* line 415, sass/_ink.scss */
+h4, .h4 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/**
+* @tab Page
+* @section heading 5
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme heading5
+*/
+/* line 427, sass/_ink.scss */
+h5, .h5 {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+/**
+* @tab Page
+* @section normal
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @theme normal
+*/
+/* line 440, sass/_ink.scss */
+p, .normal {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+/* line 445, sass/_ink.scss */
+p i {
+  font-size: 10px;
+  margin-top: 5px;
+  line-height: 15px;
+}
+
+/* line 450, sass/_ink.scss */
+.content li {
+  padding: 5px 0px;
+  list-style-type: none;
+}
+
+/* line 454, sass/_ink.scss */
+p.small {
+  font-size: 12px;
+}
+
+/* line 458, sass/_ink.scss */
+p.smaller {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+/* line 462, sass/_ink.scss */
+.footer a {
+  text-decoration: none;
+}
+
+/* Panels */
+/* line 467, sass/_ink.scss */
+h3 .small,
+li .small {
+  vertical-align: top;
+}
+
+/* line 473, sass/_ink.scss */
+p .small {
+  font-size: 12px;
+}
+
+/* line 477, sass/_ink.scss */
+.mobile-pho {
+  font-size: 20px;
+}
+
+/* line 480, sass/_ink.scss */
+td.panel {
+  background: #f2f2f2;
+  border: 1px solid #d9d9d9;
+  padding: 10px !important;
+}
+
+/* line 486, sass/_ink.scss */
+br {
+  margin-top: 10px;
+}
+
+/**
+* @tab Page
+* @section main block
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style blockwhite
+*/
+/* line 495, sass/_ink.scss */
+.white {
+  /*@editable*/
+  background: #ffffff;
+  /*@editable*/
+  color: #888888;
+}
+
+/* line 501, sass/_ink.scss */
+.white h1, .white h2, .white h3, .white h4, .white p, .white a,
+.header h1, .header h2, .header h3, .header h4, .header p, .header a
+.footer h1, .footer h2, .footer h3, .footer h4, .footer p, .footer a {
+  color: #888888;
+}
+
+/* line 506, sass/_ink.scss */
+.white h5,
+.header h5,
+.footer h5 {
+  color: #333333;
+}
+
+/* line 511, sass/_ink.scss */
+.white a,
+.header a,
+.footer a {
+  color: #2e80b9;
+}
+
+/**
+* @tab Page
+* @section main block
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style block
+*/
+/* line 521, sass/_ink.scss */
+.green {
+  /*@editable*/
+  background: #99cc00;
+  /*@editable*/
+  color: #ffffff;
+}
+
+/**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+/* line 532, sass/_ink.scss */
+.red {
+  background: #ff3333;
+  color: #ffffff;
+}
+
+/**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+/* line 543, sass/_ink.scss */
+.blue {
+  background: #0099ff;
+  color: #ffffff;
+}
+
+/* line 550, sass/_ink.scss */
+.green h1, .green h2, .green h3, .green h4, .green h5, .green p, .green a,
+.red h1, .red h2, .red h3, .red h4, .red h5, .red p, .red a,
+.blue h1, .blue h2, .blue h3, .blue h4, .blue h5, .blue p, .blue a {
+  color: #ffffff;
+}
+
+ /**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+/* line 560, sass/_ink.scss */
+.yellow {
+  background: #ffde00;
+}
+
+/* line 564, sass/_ink.scss */
+.yellow h1, .yellow h2, .yellow h3, .yellow h4, .yellow h5, .yellow p, .yellow a {
+  color: #4a4736;
+}
+
+/**
+* @tab Page
+* @section main heading
+* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+* @style heading 1
+*/
+/* line 574, sass/_ink.scss */
+.orange {
+  background: #df7a00;
+}
+
+/* line 577, sass/_ink.scss */
+.font-white {
+  color: #ffffff;
+}
+
+/* line 580, sass/_ink.scss */
+.font-blue {
+  color: #002395;
+}
+
+/* line 583, sass/_ink.scss */
+.font-green {
+  color: #a4da60;
+}
+
+/* line 586, sass/_ink.scss */
+.font-grey {
+  color: #766a65;
+}
+
+/* line 589, sass/_ink.scss */
+.border-bottom-light-blue {
+  border-bottom: 1px solid #30929c;
+}
+
+/* Buttons */
+/* line 598, sass/_ink.scss */
+table.button,
+table.tiny-button,
+table.small-button,
+table.medium-button,
+table.large-button {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 607, sass/_ink.scss */
+table.button td,
+table.tiny-button td,
+table.small-button td,
+table.medium-button td,
+table.large-button td {
+  display: block;
+  width: auto !important;
+  text-align: center;
+  border: 1px solid #ffffff;
+  padding: 8px 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* line 616, sass/_ink.scss */
+table.button td {
+  width: 178px !important;
+}
+
+/* line 619, sass/_ink.scss */
+table.button td a {
+  text-decoration: none;
+  display: block;
+  text-align: center !important;
+}
+
+/* line 629, sass/_ink.scss */
+.white table.button td,
+.white table.tiny-button td,
+.white table.small-button td,
+.white table.medium-button td,
+.white table.large-button td {
+  border: 1px solid #888888;
+}
+
+/* line 637, sass/_ink.scss */
+.white table.button td a,
+.white table.tiny-button td a,
+.white table.small-button td a,
+.white table.medium-button td a,
+.white table.large-button td a {
+  color: #888888;
+}
+
+/* line 645, sass/_ink.scss */
+table.row:not(.white) table.button:hover td,
+table.row:not(.white) table.tiny-button:hover td,
+table.row:not(.white) table.small-button:hover td,
+table.row:not(.white) table.medium-button:hover td,
+table.row:not(.white) table.large-button:hover td {
+  background: #ffffff !important;
+}
+
+/* line 653, sass/_ink.scss */
+table.row:not(.white) table.button:hover td a,
+table.row:not(.white) table.tiny-button:hover td a,
+table.row:not(.white) table.small-button:hover td a,
+table.row:not(.white) table.medium-button:hover td a,
+table.row:not(.white) table.large-button:hover td a {
+  color: #888888 !important;
+}
+
+/* line 661, sass/_ink.scss */
+table.row.white table.button:hover td,
+table.row.white table.tiny-button:hover td,
+table.row.white table.small-button:hover td,
+table.row.white table.medium-button:hover td,
+table.row.white table.large-button:hover td {
+  background: #888888 !important;
+}
+
+/* line 669, sass/_ink.scss */
+table.row.white table.button:hover td a,
+table.row.white table.tiny-button:hover td a,
+table.row.white table.small-button:hover td a,
+table.row.white table.medium-button:hover td a,
+table.row.white table.large-button:hover td a {
+  color: #ffffff !important;
+}
+
+/* Outlook First */
+/* line 674, sass/_ink.scss */
+body.outlook p {
+  display: inline !important;
+}
+
+/* line 678, sass/_ink.scss */
+.padding {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+/* line 682, sass/_ink.scss */
+.padding-left {
+  padding-left: 20px !important;
+}
+
+/* line 685, sass/_ink.scss */
+.padding-right {
+  padding-right: 10px !important;
+}
+
+/* line 688, sass/_ink.scss */
+.padding-top {
+  padding-top: 56px !important;
+}
+
+/* line 691, sass/_ink.scss */
+.footer .padding-left {
+  padding-left: 60px !important;
+}
+
+/* line 694, sass/_ink.scss */
+.footer .padding-right {
+  padding-right: 90px !important;
+}
+
+/* line 698, sass/_ink.scss */
+h2 a {
+  text-decoration: none !important;
+  color: #888888 !important;
+}
+
+/* line 702, sass/_ink.scss */
+table.facebook td {
+  background: #3b5998;
+  border-color: #2d4473;
+}
+
+/* line 707, sass/_ink.scss */
+table.facebook:hover td {
+  background: #2d4473 !important;
+}
+
+/* line 711, sass/_ink.scss */
+table.twitter td {
+  background: #00acee;
+  border-color: #0087bb;
+}
+
+/* line 716, sass/_ink.scss */
+table.twitter:hover td {
+  background: #0087bb !important;
+}
+
+/* line 720, sass/_ink.scss */
+table.google-plus td {
+  background-color: #DB4A39;
+  border-color: #CC0000;
+}
+
+/* line 725, sass/_ink.scss */
+table.google-plus:hover td {
+  background: #CC0000 !important;
+}
+
+/* line 729, sass/_ink.scss */
+.template-label {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+/* line 735, sass/_ink.scss */
+.callout .panel {
+  background: #ECF8FF;
+  border-color: #b9e5ff;
+}
+
+/* line 740, sass/_ink.scss */
+.center {
+  text-align: center;
+}
+
+/* line 744, sass/_ink.scss */
+table.columns .text-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 749, sass/_ink.scss */
+table.columns .left-text-pad {
+  padding-left: 10px;
+}
+
+/* line 753, sass/_ink.scss */
+table.columns .right-text-pad {
+  padding-right: 10px;
+}
+
+/* line 757, sass/_ink.scss */
+table[class="body"] .icon .wrapper {
+  display: inline-block !important;
+  margin-right: 5px;
+}
+
+/* line 762, sass/_ink.scss */
+.top {
+  vertical-align: top;
+}
+
+/* line 765, sass/_ink.scss */
+.middle {
+  vertical-align: middle;
+}
+
+/* line 768, sass/_ink.scss */
+.bottom {
+  vertical-align: bottom;
+}
+
+@media only screen and (max-width: 600px) {
+  /* line 3, sass/_600.scss */
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+
+  /* line 7, sass/_600.scss */
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 15, sass/_600.scss */
+  img#content-img,
+  img#bottom-arrow {
+    display: none !important;
+  }
+
+  /* line 18, sass/_600.scss */
+  #content-right {
+    padding-bottom: 15px !important;
+  }
+
+  /* line 22, sass/_600.scss */
+  table, tr, td {
+    text-align: center !important;
+  }
+
+  /* line 25, sass/_600.scss */
+  table[class="body"] img {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  /* line 30, sass/_600.scss */
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+
+  /* line 33, sass/_600.scss */
+  table[class="body"] .container {
+    width: 95% !important;
+  }
+
+  /* line 36, sass/_600.scss */
+  table[class="body"] .content .container {
+    width: 100% !important;
+  }
+
+  /* line 39, sass/_600.scss */
+  table[class="body"] .row {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* line 42, sass/_600.scss */
+  table[class="body"] .wrapper {
+    display: block !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  /* line 46, sass/_600.scss */
+  table[class="body"] .icon .wrapper {
+    display: inline-block !important;
+    margin-right: 5px;
+  }
+
+  /* line 51, sass/_600.scss */
+  table[class="body"] .columns {
+    table-layout: fixed !important;
+    float: none !important;
+    width: 100% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    display: block !important;
+  }
+
+  /* line 54, sass/_600.scss */
+  table[class="body"] .column.one {
+    width: 21px !important;
+  }
+
+  /* line 57, sass/_600.scss */
+  table[class="body"] .column.one td {
+    display: inline-block !important;
+  }
+
+  /* line 60, sass/_600.scss */
+  table[class="body"] .wrapper.first .columns {
+    display: table !important;
+  }
+
+  /* line 63, sass/_600.scss */
+  table[class="body"] table.columns td {
+    width: 100% !important;
+  }
+
+  /* line 66, sass/_600.scss */
+  table[class="body"] td.offset-by-one {
+    padding-left: 0 !important;
+  }
+
+  /* line 69, sass/_600.scss */
+  table[class="body"] td.offset-by-two {
+    padding-left: 0 !important;
+  }
+
+  /* line 72, sass/_600.scss */
+  table[class="body"] td.offset-by-three {
+    padding-left: 0 !important;
+  }
+
+  /* line 75, sass/_600.scss */
+  table[class="body"] td.offset-by-four {
+    padding-left: 0 !important;
+  }
+
+  /* line 78, sass/_600.scss */
+  table[class="body"] td.offset-by-five {
+    padding-left: 0 !important;
+  }
+
+  /* line 81, sass/_600.scss */
+  table[class="body"] td.offset-by-six {
+    padding-left: 0 !important;
+  }
+
+  /* line 84, sass/_600.scss */
+  table[class="body"] td.offset-by-seven {
+    padding-left: 0 !important;
+  }
+
+  /* line 87, sass/_600.scss */
+  table[class="body"] td.offset-by-eight {
+    padding-left: 0 !important;
+  }
+
+  /* line 90, sass/_600.scss */
+  table[class="body"] td.offset-by-nine {
+    padding-left: 0 !important;
+  }
+
+  /* line 93, sass/_600.scss */
+  table[class="body"] td.offset-by-ten {
+    padding-left: 0 !important;
+  }
+
+  /* line 96, sass/_600.scss */
+  table[class="body"] td.offset-by-eleven {
+    padding-left: 0 !important;
+  }
+
+  /* line 99, sass/_600.scss */
+  table[class="body"] .expander {
+    width: 9999px !important;
+  }
+
+  /* line 102, sass/_600.scss */
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+
+  /* line 105, sass/_600.scss */
+  table[class="body"] .text-pad-right {
+    padding-left: 10px !important;
+  }
+
+  /* line 108, sass/_600.scss */
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+
+  /* line 111, sass/_600.scss */
+  table[class="body"] .text-pad-left {
+    padding-right: 10px !important;
+  }
+
+  /* line 114, sass/_600.scss */
+  table[class="body"] .hide-for-small {
+    display: none !important;
+  }
+
+  /* line 117, sass/_600.scss */
+  table[class="body"] .show-for-desktop {
+    display: none !important;
+  }
+
+  /* line 120, sass/_600.scss */
+  table[class="body"] .show-for-small {
+    display: inherit !important;
+  }
+
+  /* line 123, sass/_600.scss */
+  table[class="body"] .hide-for-desktop {
+    display: inherit !important;
+  }
+
+  /* line 126, sass/_600.scss */
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+
+  /* line 129, sass/_600.scss */
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+
+  /* line 137, sass/_600.scss */
+  table[class="body"] table.columns td table.button td,
+  table[class="body"] table.columns td table.tiny-button td,
+  table[class="body"] table.columns td table.small-button td,
+  table[class="body"] table.columns td table.medium-button td,
+  table[class="body"] table.columns td table.large-button {
+    width: 95% !important;
+    text-align: center;
+  }
+
+  /* line 143, sass/_600.scss */
+  .white.center,
+  .green.center {
+    width: 600px !important;
+  }
+
+  /* line 150, sass/_600.scss */
+  .padding,
+  .padding-left,
+  .padding-right,
+  .footer .padding-left,
+  .footer .padding-right {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* line 154, sass/_600.scss */
+  .padding-top, td.wrapper.top.padding-top {
+    padding-top: 0 !important;
+  }
+
+  /* line 157, sass/_600.scss */
+  .sub-wrapper {
+    padding-left: 2.5% !important;
+    padding-right: 2.5% !important;
+  }
+
+  /* line 162, sass/_600.scss */
+  table[class="body"] table.columns td table.button td, table[class="body"] table.columns td table.tiny-button td, table[class="body"] table.columns td table.small-button td, table[class="body"] table.columns td table.medium-button td, table[class="body"] table.columns td table.large-button {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  /* line 169, sass/_600.scss */
+  .footer td.wrapper h3,
+  .footer td.wrapper h5,
+  .footer td.wrapper img {
+    margin-bottom: 0px;
+  }
+
+  /* line 172, sass/_600.scss */
+  table[class="body"] .wrapper.hide-for-mobile {
+    display: none !important;
+  }
+
+  /* line 175, sass/_600.scss */
+  .hide-for-desk {
+    display: block !important;
+  }
+}
