@@ -52,8 +52,8 @@ guard :shell do
   watch(/(.*).txt/) {|m| `tail #{m[0]}` }
 end
 
-watch(%r{^template/.+\.(css|js)}) { `ruby inlinetemp.rb #{template_file}` }
-watch(%r{^template/template.html}) { `ruby inlinetemp.rb #{template_file}` }
-watch(%r{^template/template-inline-copy.html}) { `php uploadtemp.php #{template_file} #{xlsx_file} #{email_dir} #{key_code}` }
+watch(%r{^template/.+\.(css|js)}) { `ruby inlinecss.rb #{template_file}` }
+watch(%r{^template/template.html}) { `ruby inlinecss.rb #{template_file}` }
+watch(%r{^template/template-inline-copy.html}) { `php xlsx2email.php #{template_file} #{xlsx_file} #{email_dir} #{key_code}` }
 
 

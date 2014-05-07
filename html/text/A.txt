@@ -19,4 +19,4 @@ Title A 2
 
 Donec tristique nisl nec tincidunt facilisis. Aliquam a vestibulum est. Proin interdum aliquet mollis. Aenean eu risus et libero placerat varius. Pellentesque in commodo massa.
 
-unsubscribe ( *|UNSUB|* ).
+unsubscribe ( # ).

@@ -19,4 +19,4 @@ Playlist_Grid.jpg ( https://www.youtube.com/playlist?list=PLwIXk27574UpNp_7em1Dx
 
 {{body-2}}
 
-unsubscribe ( *|UNSUB|* ).
+unsubscribe ( # ).

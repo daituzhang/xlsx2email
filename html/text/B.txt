@@ -19,4 +19,4 @@ Title B 2
 
  Aliquam tortor sapien, sagittis a laoreet at, iaculis eleifend quam. Nunc pretium urna in tincidunt fringilla. Cras in ligula nec arcu ornare imperdiet.
 
-unsubscribe ( *|UNSUB|* ).
+unsubscribe ( # ).

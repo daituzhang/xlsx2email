@@ -19,4 +19,4 @@ Title C 2
 
 Quisque sodales erat sed lorem malesuada, vel dapibus lectus viverra. Suspendisse tincidunt justo turpis, id fringilla nisi accumsan bibendum. Pellentesque in orci eu orci interdum tempor.
 
-unsubscribe ( *|UNSUB|* ).
+unsubscribe ( # ).

@@ -32,8 +32,13 @@
 	/***********************
 	key code in the xlsx doc
 	************************/
-
-	$xlsx = new SimpleXLSX($xlsxName);
+	if(file_exists ($xlsxName)){
+		$xlsx = new SimpleXLSX($xlsxName);
+	}
+	else {
+		echo "xlsx file does not exist";
+		exit;
+	}
 	
 
 	/**************************************
@@ -79,9 +84,19 @@
 		/**************************
 		generate the emails
 		***************************/
-		generateEmails($fileNormal, $xlsx, $emailDir, "normal/", $r[$keyCodeCol], $rowIndex, ".html", $r);
-		generateEmails($fileInline, $xlsx, $emailDir, "inline/", $r[$keyCodeCol], $rowIndex, ".html", $r);
-		generateEmails($fileText, $xlsx, $emailDir, "text/", $r[$keyCodeCol], $rowIndex, ".txt", $r);
+		if(file_exists ($fileNormal)){
+			generateEmails($fileNormal, $xlsx, $emailDir, "normal/", $r[$keyCodeCol], $rowIndex, ".html", $r);
+		}
+		else {
+			echo "template file does not exist";
+			exit;
+		}
+		if(file_exists ($fileInline)){	
+			generateEmails($fileInline, $xlsx, $emailDir, "inline/", $r[$keyCodeCol], $rowIndex, ".html", $r);
+		}
+		if(file_exists ($fileText)){	
+			generateEmails($fileText, $xlsx, $emailDir, "text/", $r[$keyCodeCol], $rowIndex, ".txt", $r);
+		}
 
 	}
 
@@ -123,7 +138,6 @@
 		replace the key words with the template
 		*************************************/
 		foreach ($rowIndex as $index) {
-			echo "$$$$$$$$$$$$$$$$$$".$index;
 			file_put_contents($f,str_replace('{{'.array_search ($index, $rowIndex).'}}',$row[$index],file_get_contents($f)));
 		}
 
