@@ -10,13 +10,16 @@
 
 ## Install
 Install [Premailer](https://github.com/premailer/premailer) and [Guard](https://github.com/guard/guard)
+
 You can still use xlsx2email without premailer and guard (no auto listen to your template)
 
 ## Setting(only with guard)
 ```bash
 guard init
 ```
-open Guardfile and place the following in, you can modify the user setting area as the path you need
+open Guardfile and place the following in. 
+
+You can modify the user setting area as the path you need
 ```ruby
 require 'pathname'
 ####################################################
@@ -63,6 +66,7 @@ watch(%r{^template/template-inline-copy.html}) { `php xlsx2email.php #{template_
 
 ## Running 
 with Guard and Premailer: Run guard
+
 Other wise:
 ```bash
 php xlsx2email.php template_file xlsx_file email_dir key_code
@@ -70,12 +74,12 @@ php xlsx2email.php template_file xlsx_file email_dir key_code
 
 ## Template lauguage
 * Put '{{' and '}}' next to your key words
+* Key words must match to index row in your spread sheet
 * Ex: 
 ```html
 <h1> {{title}} </h1>
 <p> {{body}} </p>
 ```
-* Key words must match to index row in your spread sheet
 
 ##xlsx File
 * It has to be .xlsx
