@@ -1,0 +1,25 @@
+{
+  "name": "xlsx2email",
+  "version": "1.0.0",
+  "description": "* Auto generate inline css html and text version for your template * Auto read through a xlsx file and generate html emails based on template you create",
+  "main": "index.js",
+    "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-shell": "^0.5.0",
+    "gulp-compass": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daituzhang/xlsx2email.git"
+  },
+  "author": "Yulu Zhang <daituzhang@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daituzhang/xlsx2email/issues"
+  },
+  "homepage": "https://github.com/daituzhang/xlsx2email#readme"
+}

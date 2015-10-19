@@ -7,18 +7,12 @@ require 'pathname'
 ###########################################
 if ARGV[0]
 	file = ARGV[0]
-	file_inline = file.gsub(/(.*)(.html)(.*)/, '\1-inline.html\3')
-	file_inline_copy = file.gsub(/(.*)(.html)(.*)/, '\1-inline-copy.html\3')
-	file_text = file.gsub(/(.*)(.html)(.*)/, '\1-text.txt\3')
+	file_inline = file.gsub(/(.*)(normal)(.*)/, '\1inline\3')
+	file_text = file.gsub(/(.*)(normal)(.*)/, '\1text\3')
 
 	premailer = Premailer.new( file, :warn_level => Premailer::Warnings::SAFE)
 	# Write the HTML output
 	File.open(file_inline, "w") do |fout|
-	  fout.puts premailer.to_inline_css
-	end
-
-	# Write the HTML output
-	File.open(file_inline_copy, "w") do |fout|
 	  fout.puts premailer.to_inline_css
 	end
 

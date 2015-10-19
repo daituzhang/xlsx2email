@@ -3,8 +3,8 @@
 	echo "helo";
 	if($argv[1]){
 		$fileNormal = $argv[1];
-		$fileInline = str_replace(".html","-inline.html",$fileNormal);
-		$fileText = str_replace(".html","-text.txt",$fileNormal);
+		$fileInline = str_replace("normal","inline",$fileNormal);
+		$fileText = str_replace("normal","text",$fileNormal);
 	}
 	else {
 		echo "template file name missing";
