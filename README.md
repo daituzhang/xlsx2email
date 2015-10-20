@@ -10,7 +10,7 @@
 * [simpleXLSX](http://www.phpclasses.org/package/6279-PHP-Parse-and-retrieve-data-from-Excel-XLS-files.html) --> xlsx reading
 
 ## Install
-Preinstall [Premailer](https://github.com/premailer/premailer)
+Preinstall [Premailer](https://github.com/premailer/premailer) required
 ```
 npm install
 ```
