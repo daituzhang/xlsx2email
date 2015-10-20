@@ -4,14 +4,16 @@
 
 ## Using librarys
 * [Gulp](https://github.com/gulpjs/gulp)
-* [Gulp](https://github.com/appleboy/gulp-compass)
+* [Gulp-compass](https://github.com/appleboy/gulp-compass)
 * [Ink](https://github.com/zurb/ink) ---> responsive css frame work
 * [Premailer](https://github.com/premailer/premailer) ---> inline css generating
 * [simpleXLSX](http://www.phpclasses.org/package/6279-PHP-Parse-and-retrieve-data-from-Excel-XLS-files.html) --> xlsx reading
 
 ## Install
 Preinstall [Premailer](https://github.com/premailer/premailer)
-`npm install`
+```
+npm install
+```
 
 ## Setting
 open gulpfile and you can modify:
@@ -23,10 +25,8 @@ var key_code = "file-name";
 ```
 
 ## Running 
-with Guard and Premailer: Run guard
-
-Other wise:
-```Gulp
+```
+Gulp
 ```
 
 ## Template lauguage
