@@ -7,8 +7,6 @@ Problems Viewing? View Online. (
 Title A 1
 -----------
 
-try
-
 Playlist_Grid.jpg ( https://www.youtube.com/playlist?list=PLwIXk27574UpNp_7em1DxgoIFntOad1Jx )
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis semper metus. Proin vitae augue tincidunt, rhoncus turpis vitae, eleifend justo. Vestibulum ullamcorper metus vel tincidunt commodo. 

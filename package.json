@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "* Auto generate inline css html and text version for your template * Auto read through a xlsx file and generate html emails based on template you create",
   "main": "index.js",
-    "dependencies": {
+  "dependencies": {
     "gulp": "^3.9.0",
     "gulp-livereload": "^3.8.1",
     "gulp-shell": "^0.5.0",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/daituzhang/xlsx2email/issues"
   },
-  "homepage": "https://github.com/daituzhang/xlsx2email#readme"
+  "homepage": "https://github.com/daituzhang/xlsx2email#readme",
+  "devDependencies": {
+    "gulp-premailer": "^0.4.0"
+  }
 }
